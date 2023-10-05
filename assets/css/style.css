@@ -1113,13 +1113,9 @@ body {
     margin-top: 60px;
 }
 
-.catalog .card {
-    overflow: unset;
-}
-
 .catalog__cards {
     grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
-    grid-template-rows: .5fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     row-gap: 50px;
     column-gap: 95px;
 }
