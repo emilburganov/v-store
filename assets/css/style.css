@@ -6,6 +6,7 @@
     --border-color: rgba(133, 143, 164, 0.15);
 }
 
+
 /* Reset */
 * {
     margin: 0;
@@ -24,6 +25,7 @@ a {
 img {
     width: 100%;
 }
+
 
 /* Base */
 body {
@@ -106,6 +108,7 @@ body {
     background-color: var(--secondary-color);
     color: white;
 }
+
 
 /* Header */
 .header {
@@ -224,6 +227,7 @@ body {
     line-height: 70%;
 }
 
+
 /* Banner */
 .banner {
     background: url("../images/banners/banner_1.png") no-repeat;
@@ -324,6 +328,7 @@ body {
         padding: 24px;
     }
 }
+
 
 /* Categories */
 .categories {
@@ -435,6 +440,7 @@ body {
     line-height: 120%;
 }
 
+
 /* Sales */
 .sales__cards-item {
     height: 280px;
@@ -465,6 +471,7 @@ body {
     }
 }
 
+
 /* Split line */
 .split-line {
     background-color: rgba(133, 143, 164, 0.2);
@@ -472,6 +479,7 @@ body {
     width: 100%;
     height: 1px;
 }
+
 
 /* Card */
 .card {
@@ -656,6 +664,7 @@ body {
     line-height: 140%;
 }
 
+
 /* Sales */
 .sales {
     margin-bottom: 129px;
@@ -681,10 +690,12 @@ body {
     transform: translateY(-5%);
 }
 
+
 /* Watched */
 .watched__cards {
     grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
 }
+
 
 /* Badges */
 .in-stock-badge {
@@ -709,6 +720,7 @@ body {
     font-size: 12px;
     font-weight: 500;
 }
+
 
 /* Mail */
 .mail {
@@ -781,6 +793,7 @@ body {
     color: var(--secondary-color)
 }
 
+
 /* Breadcrumbs */
 .breadcrumbs {
     display: flex;
@@ -788,6 +801,7 @@ body {
     color: rgba(56, 66, 85, 0.60);
     margin-top: 84px;
 }
+
 
 /* Product */
 .product__card {
@@ -1093,6 +1107,7 @@ body {
     }
 }
 
+
 /* Catalog */
 .catalog {
     margin-top: 60px;
@@ -1217,7 +1232,6 @@ body {
     cursor: pointer;
 }
 
-
 .catalog__filter-input:focus {
     border-color: var(--secondary-color);
 }
@@ -1281,6 +1295,7 @@ body {
         gap: 30px;
     }
 }
+
 
 /* Footer */
 .footer {
